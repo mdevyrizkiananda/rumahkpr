@@ -3,69 +3,12 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
   include 'assets/db_connect.php';
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Perumahan KPR Medan</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: EstateAgency - v4.7.0
-  * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+<?php include 'includes/head.php'; ?>
 
 <body>
-
-
-  <!-- ======= Header/Navbar ======= -->
-  <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
-    <div class="container">
-      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <a class="navbar-brand text-brand" href="index.php">Perumahan <span class="color-b">KPR</span> Medan</a>
-      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
-        <ul class="navbar-nav">
-
-          <li class="nav-item">
-            <a class="nav-link active" href="index.php">Beranda</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link " href="property-grid.php">Perumahan KPR</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="contact.php">Hubungi Kami</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav><!-- End Header/Navbar -->
+  <?php include 'includes/navbar.php' ?>
 
   <!-- ======= Intro Section ======= -->
   <div class="intro intro-carousel swiper position-relative">
@@ -246,7 +189,7 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
         <div id="property-carousel" class="swiper">
           <div class="swiper-wrapper">
             <?php
-              $query = mysqli_query($mysqli, "SELECT * FROM tb_rumah") or die (mysqli_error());
+              $query = mysqli_query($mysqli, "SELECT * FROM tb_rumah where id < 4 ") or die (mysqli_error());
               if (mysqli_num_rows($query)==0) {
                 echo "Data Tidak Tersedia";
               }
@@ -393,56 +336,7 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
 
   <!-- ======= Footer ======= -->
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <nav class="nav-footer">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="#">Beranda</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Perumahan KPR</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Hubungi Kami</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="socials-a">
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="bi bi-facebook" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="bi bi-instagram" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="copyright-footer">
-            <p class="copyright color-text-a">
-              &copy; Copyright 2021
-              <span class="color-a">M Devy Rizki Ananda</span>.
-            </p>
-          </div>
-          <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=EstateAgency
-          -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
+  <?php include 'includes/footer.php' ?>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
