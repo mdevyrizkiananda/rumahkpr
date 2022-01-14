@@ -28,7 +28,7 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
                     <h3 style="color:white;">Jl.Karya Jaya Ujung Namorambe, 20356</h3>
                     <h4 style="color:#ffb142;">HARGA : Rp.175.000.000</h4>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">Booking Sekarang!</span></a>
+                      <a href="https://wa.me/6282361802435?text=Hi%20Pak%20Alfaridzi,%20Saya%20customer%20dari%20web%20Rumah%20KPR"><span class="price-a">Booking Sekarang!</span></a>
                     </p>
                   </div>
                 </div>
@@ -52,7 +52,7 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
                     <h3 style="color:white;">Jl.Tangakahan Batu Desa Sigara Gara Marindal</h3>
                     <h4 style="color:#ffb142;">HARGA : Rp.160.000.000</h4>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">Booking Sekarang!</span></a>
+                      <a href="https://wa.me/6282361802435?text=Hi%20Pak%20Alfaridzi,%20Saya%20customer%20dari%20web%20Rumah%20KPR"><span class="price-a">Booking Sekarang!</span></a>
                     </p>
                   </div>
                 </div>
@@ -76,7 +76,7 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
                     <h3 style="color:white;">Jl.Sei Mencirim Dusun III Desa Suka Maju</h3>
                     <h4 style="color:#ffb142;">HARGA : Rp.160.000.000</h4>
                     <p class="intro-subtitle intro-price">
-                      <a href="#"><span class="price-a">Booking Sekarang!</span></a>
+                      <a href="https://wa.me/6282361802435?text=Hi%20Pak%20Alfaridzi,%20Saya%20customer%20dari%20web%20Rumah%20KPR"><span class="price-a">Booking Sekarang!</span></a>
                     </p>
                   </div>
                 </div>

@@ -83,13 +83,11 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
                   </div>
                 </div>
                 <br>
-                <div style="margin-left:24px;" class="card-header-c d-flex">
-                  <div class="card-box-ico">
-                    <span style="font-size:25px; color:red;">Booking Sekarang!!</span>
-                  </div>
-                  <div class="card-title-c align-self-center">
-                  </div>
-                </div>
+                <p> <span style="color:red;">*</span> Dapatkan cashback tambahan khusus jika melakukan pembelian rumah melalui website ini.</p>
+                <br>
+                <h3  class="intro-subtitle intro-price">
+                  <a href="https://wa.me/6282361802435?text=Hi%20Pak%20Alfaridzi,%20Saya%20customer%20dari%20web%20Rumah%20KPR"><span style="color:red; margin-top:10px; margin-left:35px;" class="price-a">Booking Sekarang</span></a>
+                </h3>
                 <div class="property-summary">
                   <div class="row">
                     <div class="col-sm-12">
@@ -197,7 +195,7 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
                   <div class="socials-a">
                     <ul class="list-inline">
                       <li class="list-inline-item">
-                        <a href="#">
+                        <a href="https://wa.me/6282361802435?text=Hi%20Pak%20Alfaridzi,%20Saya%20customer%20dari%20web%20Rumah%20KPR">
                           <i class="bi bi-whatsapp" aria-hidden="true"> Whatsapp</i>
                         </a>
                       </li>
