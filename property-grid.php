@@ -59,14 +59,14 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
                 <div class="card-overlay-a-content">
                   <div class="card-header-a">
                     <h2 class="card-title-a">
-                      <a href="#">'.$row[nama].'</a>
+                      <a href="property-single.php?id='.$row[id].'">'.$row[nama].'</a>
                     </h2>
                   </div>
                   <div class="card-body-a">
                     <div class="price-box d-flex">
                       <span class="price-a">Harga | '.$row[harga].'</span>
                     </div>
-                    <a href="property-single.php" class="link-a">Detail Informasi
+                    <a href="property-single.php?id='.$row[id].'" class="link-a">Detail Informasi
                       <span class="bi bi-chevron-right"></span>
                     </a>
                   </div>
