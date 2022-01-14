@@ -213,7 +213,7 @@ error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
                       <div class="price-box d-flex">
                         <span class="price-a">HARGA | '.$row[harga].'</span>
                       </div>
-                      <a href="property-single.php" class="link-a">Detail Informasi
+                      <a href="property-single.php?id='.$row[id].'" class="link-a">Detail Informasi
                         <span class="bi bi-chevron-right"></span>
                       </a>
                     </div>
